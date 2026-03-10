@@ -8,6 +8,7 @@ public class twoSum {
     System.out.println("");
    } 
    // bruit force approch 
+
    //  static  void twosum (int [] arr , int target){
    //     for (int i = 0 ; i < arr.length;i++){
    //       for (int j = i+1; j < arr.length;j++){
@@ -17,7 +18,9 @@ public class twoSum {
    //       }
    //     }
    // }
+
    // optimal approches 
+   
    static void Twosum(int [] arr , int target){
 
       Arrays.sort(arr);
@@ -34,7 +37,6 @@ public class twoSum {
          i++;
       }      
     }
-
-
+    
     System.out.println("No pair found");
 }     }

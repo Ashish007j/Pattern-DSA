@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "removeDuplicate",
+            "request": "launch",
+            "mainClass": "removeDuplicate",
+            "projectName": "Pattern-DSA_eb3c61d6"
+        },
+        {
+            "type": "java",
             "name": "twoSum",
             "request": "launch",
             "mainClass": "twoSum",
